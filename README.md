@@ -86,6 +86,12 @@ https://songlink.io/s/6EsLX3ZbZbAZUn3iaO5MuX
 
 https://songlink.io/i/1067974803
 
+If you know the country of the song, you should append a query param `c` equal to the two-letter country code. For example, for an Austrian song:
+
+https://songlink.io/i/1202255139?c=at
+
+We default to `US` if you do not specify a country. When in doubt, your best bet is to compose a [full Songlink URL](#full-songlink-urls) for Apple Music songs.
+
 #### YouTube
 
 `https://songlink.io/ + y/ + YouTube ID (id)`
