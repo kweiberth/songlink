@@ -7,7 +7,7 @@ Songlink is the best way to share music (we think). But, with your help, we can 
   * [Full Songlink URLs](#full-songlink-urls)
   * [ID-only Songlink URLs](#id-only-songlink-urls)
 * [Contributing (Alternate Take)](#contributing-alternate-take)
-* [Blog posts](https://github.com/kweiberth/songlink-docs/tree/master/posts)
+* [Blog posts](https://github.com/kweiberth/songlink/tree/master/blog)
 
 ## How to use Songlink
 Sharing Songlinks is powerful. When someone clicks on a Songlink, it is quick and easy for them to start listening to the song in the app they love:
