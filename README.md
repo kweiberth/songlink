@@ -31,7 +31,7 @@ For more info about all the ways to create Songlink URLs, see the [Songlink as a
 ## Contributing
 We want to make it as easy as possible for users to create and share Songlink URLs. Thus, we need to integrate with the tools and apps they use to listen to music and communicate with friends. We’re thinking apps and websites, messaging bots, universal share flows on iOS and Android, etc. We can’t build all of this cool shit ourselves (though we **are** working on some of them!), so we’d like to engage the community and enable all yinz to make Songlink workflows that help you (and maybe even others!) share music.
 
-The next section describes how (easy it is) to create Songlink URLs. Please reach out to hello@songlink.io with any questions or comments, or to show off a new integration you’ve built. I’ll make a gif of any cool shit you build and highlight it in the [How to use Songlink](#how-to-use-songlink) section above.
+The next section describes how (easy it is) to create Songlink URLs. Please reach out to hello@song.link with any questions or comments, or to show off a new integration you’ve built. I’ll make a gif of any cool shit you build and highlight it in the [How to use Songlink](#how-to-use-songlink) section above.
 
 ## Songlink as a service
 At its core, Songlink is a service that renders Songlink URLs. There are 2 types of Songlink URLs, each of which are easy to compose:
@@ -43,32 +43,32 @@ At its core, Songlink is a service that renders Songlink URLs. There are 2 types
 
 These are the easiest to create. A full Songlink URL is composed by appending the song’s share URL to the root Songlink domain. For example:
 
-https://songlink.io/https://itun.es/us/5Gb0-?i=1053825088
+https://song.link/https://itun.es/us/5Gb0-?i=1053825088
 
 Songlink currently supports Spotify, Apple Music, YouTube, Google Play Music and Deezer urls:
 
 #### Spotify
 
-https://songlink.io/https://open.spotify.com/track/0Jcij1eWd5bDMU5iPbxe2i
-https://songlink.io/spotify:track:35QAUfIbfIXT3p3cWhaKxZ
+https://song.link/https://open.spotify.com/track/0Jcij1eWd5bDMU5iPbxe2i
+https://song.link/spotify:track:35QAUfIbfIXT3p3cWhaKxZ
 
 #### Apple Music
 
-https://songlink.io/https://itun.es/us/48WL3?i=932646721
+https://song.link/https://itun.es/us/48WL3?i=932646721
 
 #### YouTube
 
-https://songlink.io/https://youtu.be/YZR8WMFK7Qw
+https://song.link/https://youtu.be/YZR8WMFK7Qw
 
-https://songlink.io/https://www.youtube.com/watch?v=Kp7eSUU9oy8
+https://song.link/https://www.youtube.com/watch?v=Kp7eSUU9oy8
 
 #### Google Play Music
 
-https://songlink.io/https://play.google.com/music/m/Tvvhbnefqhalxuypoxq4xqeo4h4
+https://song.link/https://play.google.com/music/m/Tvvhbnefqhalxuypoxq4xqeo4h4
 
 #### Deezer
 
-https://songlink.io/https://www.deezer.com/track/78621548
+https://song.link/https://www.deezer.com/track/78621548
 
 ### ID-only Songlink URLs
 
@@ -76,39 +76,39 @@ These are shorter, prettier, cooler Songlink URLs 😎. If you can grab the ID o
 
 #### Spotify
 
-`https://songlink.io/ + s/ + Spotify ID (id)`
+`https://song.link/ + s/ + Spotify ID (id)`
 
 https://songlink.io/s/6EsLX3ZbZbAZUn3iaO5MuX
 
 #### Apple Music
 
-`https://songlink.io/ + i/ + Apple Music ID (trackId)`
+`https://song.link/ + i/ + Apple Music ID (trackId)`
 
-https://songlink.io/i/1067974803
+https://song.link/i/1067974803
 
 If you know the country of the song, you should add the two-letter country code before `/i/`. For example, for an Austrian song:
 
-https://songlink.io/us/i/1067974803
+https://song.link/us/i/1067974803
 
 We default to `us` (United States) if you do not specify a country. When in doubt, your easiest and best bet is to compose a [full Songlink URL](#full-songlink-urls) for Apple Music songs.
 
 #### YouTube
 
-`https://songlink.io/ + y/ + YouTube ID (id)`
+`https://song.link/ + y/ + YouTube ID (id)`
 
-https://songlink.io/y/UVtpXvzzXiA
+https://song.link/y/UVtpXvzzXiA
 
 #### Google Play Music
 
-`https://songlink.io/ + g/ + Google Play Music ID (storeId)`
+`https://song.link/ + g/ + Google Play Music ID (storeId)`
 
-https://songlink.io/g/Tps4zhpxnp3keaurdgw7wasleze
+https://song.link/g/Tps4zhpxnp3keaurdgw7wasleze
 
 #### Deezer
 
-`https://songlink.io/ + d/ + Deezer ID (id)`
+`https://song.link/ + d/ + Deezer ID (id)`
 
-https://songlink.io/d/66539325d
+https://song.link/d/66539325d
 
 ## Contributing (Alternate Take)
 Songlink has no funding or revenue stream (we think banner ads are bullshit 🤑). We are committed to maintaining (and, of course, constantly improving) the Songlink platform. Unfortunately, servers aren’t free, my Philz coffee addiction is real and we drink a lot of IPAs. If you’d like to help fund our servers, ☕ or 🍺 you can send us a gift via [Venmo](https://venmo.com/songlink) or [PayPal](https://paypal.me/songlink).
