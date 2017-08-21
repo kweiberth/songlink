@@ -36,11 +36,11 @@ The next section describes how (easy it is) to create Songlink URLs. Please reac
 ## Songlink as a service
 Songlink has the ability to render Songlink URLs and also redirect to music services.
 
-1. [Process Songlink Redirect URLs](#process-songlink-redirect-urls)
-2. [Render Full Songlink URLs](#render-full-songlink-urls)
-3. [Render ID-only Songlink URLs](#render-id-only-songlink-urls)
+1. [Redirect URLs](#redirect-urls)
+2. [Full Songlink URLs](#render-full-songlink-urls)
+3. [ID-only Songlink URLs](#render-id-only-songlink-urls)
 
-### Process Songlink Redirect URLs
+### Redirect URLs
 
 A Songlink Redirect URL can be composed easily with the following format:
 
