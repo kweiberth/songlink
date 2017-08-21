@@ -34,12 +34,37 @@ We want to make it as easy as possible for users to create and share Songlink UR
 The next section describes how (easy it is) to create Songlink URLs. Please reach out to hello@song.link with any questions or comments, or to show off a new integration you’ve built. I’ll make a gif of any cool shit you build and highlight it in the [How to use Songlink](#how-to-use-songlink) section above.
 
 ## Songlink as a service
-At its core, Songlink is a service that renders Songlink URLs. There are 2 types of Songlink URLs, each of which are easy to compose:
+Songlink has the ability to render Songlink URLs and also redirect to music services.
 
-1. [Full Songlink URLs](#full-songlink-urls)
-2. [ID-only Songlink URLs](#id-only-songlink-urls)
+1. [Process Songlink Redirect URLs](#process-songlink-redirect-urls)
+2. [Render Full Songlink URLs](#render-full-songlink-urls)
+3. [Render ID-only Songlink URLs](#render-id-only-songlink-urls)
 
-### Full Songlink URLs
+### Process Songlink Redirect URLs
+
+A Songlink Redirect URL can be composed easily with the following format:
+
+```
+https://song.link/redirect?url=encodedSongUrl&to=musicService&web=boolean 
+```
+
+More info about each part:
+
+`url`: the url to the song, e.g. a spotify song URL. It's best if it's encoded, but it can be the plain URL, too.
+
+`to`: the music service to which you'd like to redirect. Can be one of: `spotify` , `youtube`, `itunes`, `google` or `deezer`. If the song is not available in the user's country on that music service, the Songlink page will load instead.
+
+`web`: this param takes a boolean and defaults to `false`. If set to `true` then we will redirect to the web version of the music service. This applies mostly to Spotify, which has two completely different URLs for app and web. If the user does not have the Spotify app installed on that device, the link will not work.
+
+This also affects Apple Music (`&to=itunes`) links, which will not attempt to open the app if `&web=true`.
+
+Here's an example redirect URL:
+
+https://song.link/redirect?url=https%3A%2F%2Fitun.es%2Fus%2FK80fab%3Fi%3D1075269997&to=spotify&web=true
+
+which was created from the song https://itun.es/us/K80fab and will open that song in the Spotify web player.
+
+### Render Full Songlink URLs
 
 These are the easiest to create. A full Songlink URL is composed by appending the song’s share URL to the root Songlink domain. For example:
 
@@ -70,7 +95,7 @@ https://song.link/https://play.google.com/music/m/Tvvhbnefqhalxuypoxq4xqeo4h4
 
 https://song.link/https://www.deezer.com/track/78621548
 
-### ID-only Songlink URLs
+### Render ID-only Songlink URLs
 
 These are shorter, prettier, cooler Songlink URLs 😎. If you can grab the ID of the song, the rest is 🍰. We support Spotify, Apple Music, YouTube and Google Play Music IDs.
 
