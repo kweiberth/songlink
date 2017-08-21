@@ -4,6 +4,7 @@ Songlink is the best way to share music (we think). But, with your help, we can 
 * [How to use Songlink](#how-to-use-songlink)
 * [Contributing](#contributing)
 * [Songlink as a service](#songlink-as-a-service)
+  * [Redirect URLs](#redirect-urls)
   * [Full Songlink URLs](#full-songlink-urls)
   * [ID-only Songlink URLs](#id-only-songlink-urls)
 * [Contributing (Alternate Take)](#contributing-alternate-take)
