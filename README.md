@@ -43,7 +43,7 @@ Songlink has the ability to render Songlink URLs and also redirect to music serv
 
 ### Redirect URLs
 
-A Songlink Redirect URL can be composed easily with the following format:
+A redirect URL will not load a Songlink page, but instead redirect the user to a certain music streaming service, as defined by the `to` query param. A Songlink Redirect URL can be composed easily with the following format:
 
 ```
 https://song.link/redirect?url=encodedSongUrl&to=musicService&web=boolean 
