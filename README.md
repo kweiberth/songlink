@@ -61,9 +61,9 @@ This also affects Apple Music (`&to=itunes`) links, which will not attempt to op
 
 Here's an example redirect URL:
 
-https://song.link/redirect?url=https%3A%2F%2Fitun.es%2Fus%2FK80fab%3Fi%3D1075269997&to=spotify&web=true
+https://song.link/redirect?url=https%3A%2F%2Fitun.es%2Fus%2F5Gb0-%3Fi%3D1053825088&to=spotify&web=true
 
-which was created from the song https://itun.es/us/K80fab and will open that song in the Spotify web player.
+which was created from the song https://itun.es/us/5Gb0-?i=1053825088 and will open that song in the Spotify web player.
 
 ### Render Full Songlink URLs
 
