@@ -1,4 +1,4 @@
-**NOTE** This repo is deprecated. Please head to https://github.com/songlink/docs for our latest documentation.
+**NOTE**: This repo is deprecated. Please head to https://github.com/songlink/docs for our latest documentation.
 
 # Songlink
 Songlink is the best way to share music (we think). But, with your help, we can make it even better. 🙏🏼
